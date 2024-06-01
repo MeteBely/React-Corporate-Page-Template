@@ -1,0 +1,28 @@
+import { PortfolioProjects } from "../components-data/Portfolio";
+
+const Portfolio = () => {
+  return (
+    <section>
+      <div className="py-8">
+        <div>
+          <h2 className="text-[32px] font-bold mb-8 pb-4 text-[#36517E] border-b border-gray-400 mx-auto text-center w-[220px]">
+            PORTFOLIO
+          </h2>
+        </div>
+        <div className="flex flex-col flex-wrap gap-4 items-start justify-start h-[1200px] w-[1220px] m-auto">
+          {PortfolioProjects.map((project, i) => (
+            <div key={i} className="">
+              <img
+                className="w-[400px] object-cover"
+                src={project.img}
+                alt=""
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Portfolio;
