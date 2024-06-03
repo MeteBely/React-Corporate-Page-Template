@@ -6,10 +6,10 @@ const Faq = () => {
     <section>
       <div className="py-8">
         <div className="mb-12">
-          <h2 className="text-[32px] font-bold mb-4 pb-4 text-[#36517E] border-b border-gray-400 mx-auto text-center w-[620px]">
+          <h2 className="text-[32px] font-bold mb-4 pb-4 text-[#36517E] border-b border-gray-400 mx-auto text-center w-[620px] fontMontserrat">
             FREQUENTLY ASKED QUESTIONS
           </h2>
-          <p className="mx-auto text-center w-[1400px]">
+          <p className="mx-auto text-center w-[1400px] fontRoboto">
             Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
             aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
             quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia

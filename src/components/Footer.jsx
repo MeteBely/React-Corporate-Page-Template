@@ -11,7 +11,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <div className="bg-[#F5F6F8] py-8 flex flex-row justify-evenly items-start">
+      <div className="bg-[#F5F6F8] py-8 flex flex-row justify-evenly items-start fontRoboto">
         <div className="flex flex-col items-start justify-start gap-3">
           <div>
             <h3 className="text-[#37517e] font-bold text-2xl">ETEM</h3>

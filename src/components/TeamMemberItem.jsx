@@ -12,11 +12,13 @@ const TeamMemberItem = ({ member }) => {
         <img className="w-40 rounded-full" src={member.img} alt="" />
       </div>
       <div>
-        <h4 className="text-[#37517e] text-2xl font-semibold">{member.name}</h4>
-        <p className="mb-4  w-[160px] underline underline-offset-[5px] decoration-slate-400">
+        <h4 className="text-[#37517e] text-2xl font-semibold fontMontserrat">
+          {member.name}
+        </h4>
+        <p className="mb-4  w-[160px] underline underline-offset-[5px] fontRoboto decoration-slate-400">
           {member.position}
         </p>
-        <p className="text-[15px] mb-6">{member.subTxt}</p>
+        <p className="text-[15px] mb-6 fontRoboto ">{member.subTxt}</p>
         <div className="flex flex-row items-center justify-start gap-6">
           <a
             className="cursor-pointer"

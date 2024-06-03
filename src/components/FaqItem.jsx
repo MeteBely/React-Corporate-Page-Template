@@ -15,7 +15,7 @@ const FaqItem = ({ item }) => {
         <div className="flex flex-row items-center justify-center gap-2">
           <RxQuestionMarkCircled color="#47B2E4" size={24} />
           <h3
-            className={`text-xl font-semibold transition-all duration-200 ease-linear ${
+            className={`text-lg font-semibold transition-all duration-200 ease-linear fontMontserrat ${
               mouseClick ? "text-[#47B2E4]" : "text-[#36517E]"
             }`}
           >
@@ -36,7 +36,7 @@ const FaqItem = ({ item }) => {
           mouseClick
             ? "max-h-20 visible opacity-100 translate-y-2"
             : "max-h-0 invisible opacity-0 -translate-y-2"
-        } transition-all duration-200 ease-linear`}
+        } transition-all duration-200 ease-linear fontRoboto`}
       >
         {item.answer}
       </p>

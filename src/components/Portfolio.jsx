@@ -5,10 +5,10 @@ const Portfolio = () => {
     <section>
       <div className="py-8">
         <div className="mb-12">
-          <h2 className="text-[32px] font-bold mb-4 pb-4 text-[#36517E] border-b border-gray-400 mx-auto text-center w-[220px]">
+          <h2 className="text-[32px] fontMontserrat font-bold mb-4 pb-4 text-[#36517E] border-b border-gray-400 mx-auto text-center w-[220px]">
             PORTFOLIO
           </h2>
-          <p className="mx-auto text-center w-[800px]">
+          <p className="mx-auto fontRoboto text-center w-[800px]">
             Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
             consectetur velit
           </p>
