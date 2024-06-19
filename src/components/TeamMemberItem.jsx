@@ -12,7 +12,7 @@ const TeamMemberItem = ({ member }) => {
         <img className="w-40 rounded-full" src={member.img} alt="" />
       </div>
       <div>
-        <h4 className="text-[#37517e] text-2xl font-semibold fontMontserrat">
+        <h4 className="text-[#000] text-2xl font-semibold fontMontserrat">
           {member.name}
         </h4>
         <p className="mb-4  w-[160px] underline underline-offset-[5px] fontRoboto decoration-slate-400">
