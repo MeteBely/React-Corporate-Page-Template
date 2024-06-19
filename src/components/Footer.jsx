@@ -14,24 +14,26 @@ const Footer = () => {
       <div className="bg-[#F5F6F8] py-8 flex flex-row justify-evenly items-start fontRoboto">
         <div className="flex flex-col items-start justify-start gap-3">
           <div>
-            <h3 className="text-[#37517e] font-bold text-2xl">ETEM</h3>
-          </div>
-          <div>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
+            <h3 className="text-[#000] font-bold text-2xl">JFORCE</h3>
           </div>
           <div>
             <p>
-              <span className="font-semibold">Phone:</span> +1 5589 55488 55
+              Fatih Sultan Mehmet Mah. Poligon Cd. Buyaka 2 Sitesi Kule:1 Kat:7
+            </p>
+            <p>Ümraniye / İSTANBUL</p>
+          </div>
+          <div>
+            <p>
+              <span className="font-semibold">Phone:</span> +90 216 668 02 90
             </p>
             <p>
-              <span className="font-semibold">Email:</span> info@example.com
+              <span className="font-semibold">Email:</span> jforce@jforce.com
             </p>
           </div>
         </div>
         <div className="flex flex-row items-start justify-center gap-20">
           <div>
-            <h4 className="text-[#37517e] font-semibold mb-3 text-[17px]">
+            <h4 className="text-[#000] font-semibold mb-3 text-[17px]">
               Useful Links
             </h4>
             <ul className="flex flex-col items-start justify-center gap-2 text-[15px]">
@@ -58,7 +60,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="text-[#37517e] font-semibold mb-3 text-[17px]">
+            <h4 className="text-[#000] font-semibold mb-3 text-[17px]">
               Our Services
             </h4>
             <ul className="flex flex-col items-start justify-center gap-2 text-[15px]">
@@ -85,7 +87,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="w-[400px]">
-            <h4 className="text-[#37517e] font-semibold mb-3 text-[17px]">
+            <h4 className="text-[#000] font-semibold mb-3 text-[17px]">
               Follow Us
             </h4>
             <p className="mb-4">
