@@ -3,10 +3,10 @@ import { PortfolioProjects } from "../components-data/Portfolio";
 const Portfolio = () => {
   return (
     <section>
-      <div className="py-8">
-        <div className="mb-12">
-          <h2 className="text-[32px] fontMontserrat font-bold mb-4 pb-4 text-[#36517E] border-b border-gray-400 mx-auto text-center w-[220px]">
-            PORTFOLIO
+      <div className="py-40">
+        <div className="mb-20">
+          <h2 className="text-[52px] font-extrabold fontMontserrat mb-4 pb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-[420px]">
+            PROJECTS
           </h2>
           <p className="mx-auto fontRoboto text-center w-[800px]">
             Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
