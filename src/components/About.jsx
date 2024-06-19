@@ -1,27 +1,25 @@
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { useState } from "react";
+import jforceImage from "../assets/filteredImage.jpg";
 
 const About = () => {
   const [hoverBtn, setHoverBtn] = useState(false);
 
   return (
     <section>
-      <div className="mb-20">
+      <div className="mb-40">
         <div>
-          <h2 className="text-[32px] font-bold mb-16 pb-4 text-[#36517E] border-b border-gray-400 mx-auto text-center w-[220px] fontMontserrat">
+          <h2 className="text-[52px] font-extrabold mb-16 pb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-[400px] fontMontserrat">
             ABOUT US
           </h2>
         </div>
-        <div className="flex flex-row justify-evenly items-center fontRoboto text-[#6c757d]">
-          <div className="w-[600px] h-[400px]">
-            <img
-              src="https://img.freepik.com/free-photo/business-team-ai-generated-image_268835-6686.jpg"
-              alt=""
-            />
+        <div className="flex flex-row justify-evenly items-start fontRoboto text-[#6c757d]">
+          <div className="w-[800px] h-[600px]">
+            <img src={jforceImage} alt="" />
           </div>
           <div className="flex flex-col gap-12 items-center justify-start w-[600px] h-[400px] text-[17px] leading-6 tracking-[1.75]">
-            <div>
+            <div className="shadow-lg p-4">
               <p className="mb-4 text-black">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -29,7 +27,7 @@ const About = () => {
               <ul className="flex flex-col gap-[10px] text-[15px]">
                 <li className="flex flex-row items-center">
                   <span>
-                    <IoMdCheckmarkCircleOutline size={18} color="#47B2E4" />
+                    <IoMdCheckmarkCircleOutline size={18} color="#6B7592" />
                   </span>
                   <p>
                     Ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -37,7 +35,7 @@ const About = () => {
                 </li>
                 <li className="flex flex-row items-center">
                   <span>
-                    <IoMdCheckmarkCircleOutline size={18} color="#47B2E4" />
+                    <IoMdCheckmarkCircleOutline size={18} color="#6B7592" />
                   </span>
                   <p>
                     Ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -45,7 +43,7 @@ const About = () => {
                 </li>
                 <li className="flex flex-row items-center">
                   <span>
-                    <IoMdCheckmarkCircleOutline size={18} color="#47B2E4" />
+                    <IoMdCheckmarkCircleOutline size={18} color="#6B7592" />
                   </span>
                   <p>Ullamco laboris nisi ut aliquip ex ea commodo</p>
                 </li>
@@ -53,28 +51,33 @@ const About = () => {
             </div>
             <div className="">
               <p className="mb-4 text-black">
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
+                JFORCE Bilişim Teknolojileri has been founded in Istanbul in
+                2003 in order to meet entire Technology demands of their
+                customers. We have been providing products, solutions and
+                services for all kinds of technology hardware, communication,
+                security, backup, business continuity topics independent from
+                any platform. We ensure our customers which we achieved
+                successful projects together to avoid harsh effects of digital
+                transformation by supporting digitalization of their business
+                processes; and let them adapt efficient and creative solutions
+                by analysing their requirements accurately.
               </p>
               <button
                 onMouseEnter={() => setHoverBtn(true)}
                 onMouseLeave={() => setHoverBtn(false)}
                 className={`${
-                  hoverBtn && "bg-[#47B2E4]"
-                } transition-all flex flex-row items-center gap-2 border-2 border-[#47B2E4] rounded-lg px-8 py-[10px]`}
+                  hoverBtn ? "bg-[#fff]" : "bg-[#000]"
+                } transition-all flex flex-row items-center gap-2 border-2 border-[#000] rounded-lg px-8 py-[10px]`}
               >
                 <span
                   className={`${
-                    hoverBtn ? "text-[#ffffff]" : "text-[#47B2E4]"
+                    hoverBtn ? "text-[#000]" : "text-[#fff]"
                   } text-[15px] font-semibold transition-all`}
                 >
                   Read More{" "}
                 </span>
                 <FaLongArrowAltRight
-                  color={`${hoverBtn ? "#ffffff" : "#47B2E4"}`}
+                  color={`${hoverBtn ? "#000" : "#fff"}`}
                   className={`transition-all ${hoverBtn && "translate-x-2"}`}
                 />
               </button>
