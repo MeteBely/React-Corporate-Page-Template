@@ -4,9 +4,9 @@ import FaqItem from "./FaqItem";
 const Faq = () => {
   return (
     <section>
-      <div className="py-8">
-        <div className="mb-12">
-          <h2 className="text-[32px] font-bold mb-4 pb-4 text-[#36517E] border-b border-gray-400 mx-auto text-center w-[620px] fontMontserrat">
+      <div className="py-40">
+        <div className="mb-20">
+          <h2 className="text-[52px] font-extrabold mb-4 pb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-[1200px] fontMontserrat">
             FREQUENTLY ASKED QUESTIONS
           </h2>
           <p className="mx-auto text-center w-[1400px] fontRoboto">

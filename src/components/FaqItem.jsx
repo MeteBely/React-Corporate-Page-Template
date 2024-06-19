@@ -13,10 +13,10 @@ const FaqItem = ({ item }) => {
         className="flex flex-row items-center justify-between cursor-pointer"
       >
         <div className="flex flex-row items-center justify-center gap-2">
-          <RxQuestionMarkCircled color="#47B2E4" size={24} />
+          <RxQuestionMarkCircled color="#6B7592" size={24} />
           <h3
             className={`text-lg font-semibold transition-all duration-200 ease-linear fontMontserrat ${
-              mouseClick ? "text-[#47B2E4]" : "text-[#36517E]"
+              mouseClick ? "text-[#36517E]" : "text-[#000]"
             }`}
           >
             {item.question}
