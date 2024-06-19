@@ -1,38 +1,45 @@
+import computerIcon from "../assets/computer-solid.svg";
+import bullhornIcon from "../assets/bullhorn-solid.svg";
+import intercomIcon from "../assets/intercom.svg";
+import stopwatchIcon from "../assets/stopwatch-solid.svg";
+import worldIcon from "../assets/globe-solid.svg";
+import handshakeIcon from "../assets/handshake-angle-solid.svg";
+
 export const ServicesArr = [
   {
-    title: "Web Application",
+    title: "Software Development",
     shortDesc:
-      "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment",
-    icon: "https://cdn.icon-icons.com/icons2/2367/PNG/512/check_small_icon_143632.png",
+      "Stay ahead of the competition with our cutting-edge custom software development solutions",
+    icon: computerIcon,
   },
   {
-    title: "Highly Customabimlze",
+    title: "Data Analytics",
     shortDesc:
-      "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment",
-    icon: "https://cdn.icon-icons.com/icons2/2367/PNG/512/check_small_icon_143632.png",
+      "Unlock the power of your data and turn it into actionable insights with our data analytics services",
+    icon: intercomIcon,
   },
   {
-    title: "Web Application",
+    title: "MARKETING",
     shortDesc:
-      "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment",
-    icon: "https://cdn.icon-icons.com/icons2/2367/PNG/512/check_small_icon_143632.png",
+      "Quisque erat est, sagittis vitae ante id, imperdiet viverra nibh dictum.",
+    icon: bullhornIcon,
   },
   {
-    title: "Optimised for Speed",
+    title: "Training",
     shortDesc:
-      "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment",
-    icon: "https://cdn.icon-icons.com/icons2/2367/PNG/512/check_small_icon_143632.png",
+      "Equip your workforce with the necessary skills to thrive in a digital-first environment with our comprehensive IT training services",
+    icon: stopwatchIcon,
   },
   {
-    title: "Service & Plugins",
+    title: "Technology Consulting",
     shortDesc:
-      "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment",
-    icon: "https://cdn.icon-icons.com/icons2/2367/PNG/512/check_small_icon_143632.png",
+      "Navigate the complex world of technology with confidence, leveraging our technology consulting services",
+    icon: worldIcon,
   },
   {
-    title: "Dedicated Support",
+    title: "Team Extension",
     shortDesc:
-      "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment",
-    icon: "https://cdn.icon-icons.com/icons2/2367/PNG/512/check_small_icon_143632.png",
+      "Expand your team's capabilities and accelerate your projects with our dedicated IT professionals.",
+    icon: handshakeIcon,
   },
 ];

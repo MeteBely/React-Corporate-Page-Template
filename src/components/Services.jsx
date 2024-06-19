@@ -4,9 +4,9 @@ import ServiceItem from "./ServiceItem";
 const Services = () => {
   return (
     <section>
-      <div className="bg-[#F5F6F8] py-12">
-        <div className="mb-12">
-          <h2 className="text-[32px] fontMontserrat font-bold mb-4 pb-4 text-[#36517E] border-b border-gray-400 mx-auto text-center w-[220px]">
+      <div className="bg-[#F5F6F8] py-40">
+        <div className="mb-20">
+          <h2 className="text-[52px] font-extrabold fontMontserrat mb-4 pb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-[420px]">
             SERVICES
           </h2>
           <p className="mx-auto text-center w-[800px] fontRoboto">
