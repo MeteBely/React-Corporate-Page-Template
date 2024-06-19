@@ -3,9 +3,9 @@ import { FaCircleCheck } from "react-icons/fa6";
 const Pricing = () => {
   return (
     <section>
-      <div className="py-8">
-        <div className="mb-12">
-          <h2 className="text-[32px] fontMontserrat font-bold pb-4 mb-4 text-[#36517E] border-b border-gray-400 mx-auto text-center w-[220px]">
+      <div className="py-40">
+        <div className="mb-20">
+          <h2 className="text-[52px] font-extrabold fontMontserrat pb-4 mb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-[300px]">
             PRICING
           </h2>
           <p className="mx-auto fontRoboto text-center w-[800px]">
@@ -17,7 +17,7 @@ const Pricing = () => {
           <div className="flex flex-col items-start justify-center shadow-md rounded-md px-4 h-[440px] gap-4">
             <h4 className="text-[24px] font-bold fontMontserrat">Base</h4>
             <div className="text-gray-400">
-              <span className="text-[42px] font-bold text-[#000]">$39 </span>/
+              <span className="text-[42px] font-bold text-[#000]">$19 </span>/
               Month
             </div>
             <p>For most business that want to optimize web queries</p>
@@ -53,12 +53,14 @@ const Pricing = () => {
                 Unlimited users
               </li>
             </ul>
-            <button className="py-3 px-12 text-[#47B2E4] border-2 font-semibold text-lg tracking-wide rounded-lg border-[#47B2E4] hover:text-white hover:bg-[#47B2E4] transition-all">
+            <button className="py-3 px-12 text-[#fff] bg-[#000] border-2 font-semibold text-lg tracking-wide rounded-lg border-[#000] hover:text-[#000] hover:bg-[#fff] transition-all duration-200">
               Choose Plan
             </button>
           </div>
-          <div className="flex flex-col items-start justify-center shadow-md rounded-md px-4 h-[440px] gap-4 bg-[#36517E] text-white">
-            <h4 className="text-[24px] font-bold fontMontserrat">Popular</h4>
+          <div className="flex flex-col items-start justify-center shadow-md rounded-md px-4 h-[440px] gap-4 bg-[#000] text-white">
+            <h4 className="text-[24px] font-bold fontMontserrat border-b">
+              Popular
+            </h4>
             <div className="text-white">
               <span className="text-[42px] font-bold">$39 </span>/ Month
             </div>
@@ -95,14 +97,14 @@ const Pricing = () => {
                 Unlimited users
               </li>
             </ul>
-            <button className="py-3 px-12 text-[#47B2E4] bg-white border-2 font-semibold text-lg tracking-wide rounded-lg border-transparent hover:text-white hover:bg-[#47B2E4] transition-all">
+            <button className="py-3 px-12 text-[#000] bg-[#fff] border-2 font-semibold text-lg tracking-wide rounded-lg border-transparent hover:text-[#fff] hover:bg-[#808080] transition-all duration-200">
               Choose Plan
             </button>
           </div>
           <div className="flex flex-col items-start justify-center shadow-md rounded-md px-4 h-[440px] gap-4">
             <h4 className="text-[24px] font-bold fontMontserrat">Base</h4>
             <div className="text-gray-400">
-              <span className="text-[42px] font-bold text-[#000]">$39 </span>/
+              <span className="text-[42px] font-bold text-[#000]">$69 </span>/
               Month
             </div>
             <p>For most business that want to optimize web queries</p>
@@ -138,7 +140,7 @@ const Pricing = () => {
                 Unlimited users
               </li>
             </ul>
-            <button className="py-3 px-12 text-[#47B2E4] border-2 font-semibold text-lg tracking-wide rounded-lg border-[#47B2E4] hover:text-white hover:bg-[#47B2E4] transition-all">
+            <button className="py-3 px-12 text-[#fff] bg-[#000] border-2 font-semibold text-lg tracking-wide rounded-lg border-[#000] hover:text-[#000] hover:bg-[#fff] transition-all duration-200">
               Choose Plan
             </button>
           </div>
