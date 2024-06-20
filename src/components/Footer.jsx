@@ -11,10 +11,10 @@ const Footer = () => {
 
   return (
     <footer>
-      <div className="bg-[#F5F6F8] py-8 flex flex-row justify-evenly items-start fontRoboto">
-        <div className="flex flex-col items-start justify-start gap-3">
+      <div className="bg-[#191919] py-8 flex flex-row justify-evenly items-start fontRoboto">
+        <div className="flex flex-col items-start justify-start gap-3 text-[#AFAFAF]">
           <div>
-            <h3 className="text-[#000] font-bold text-2xl">JFORCE</h3>
+            <h3 className="text-[#fff] font-bold text-2xl">JFORCE</h3>
           </div>
           <div>
             <p>
@@ -31,9 +31,9 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-row items-start justify-center gap-20">
+        <div className="flex flex-row items-start justify-center gap-20 text-[#AFAFAF]">
           <div>
-            <h4 className="text-[#000] font-semibold mb-3 text-[17px]">
+            <h4 className="text-[#fff] font-semibold mb-3 text-[17px]">
               Useful Links
             </h4>
             <ul className="flex flex-col items-start justify-center gap-2 text-[15px]">
@@ -60,7 +60,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="text-[#000] font-semibold mb-3 text-[17px]">
+            <h4 className="text-[#fff] font-semibold mb-3 text-[17px]">
               Our Services
             </h4>
             <ul className="flex flex-col items-start justify-center gap-2 text-[15px]">
@@ -87,7 +87,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="w-[400px]">
-            <h4 className="text-[#000] font-semibold mb-3 text-[17px]">
+            <h4 className="text-[#fff] font-semibold mb-3 text-[17px]">
               Follow Us
             </h4>
             <p className="mb-4">
@@ -123,7 +123,7 @@ const Footer = () => {
                         "text-[#6a6d75] transition-all duration-200": true,
                         "-translate-y-1": iconUp === "tiktok",
                       })}
-                      color={`${iconUp === "tiktok" ? "#000" : ""}`}
+                      color={`${iconUp === "tiktok" ? "#008000" : ""}`}
                       size={28}
                     />
                   </a>
