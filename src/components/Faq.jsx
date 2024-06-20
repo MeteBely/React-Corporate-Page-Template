@@ -3,7 +3,7 @@ import FaqItem from "./FaqItem";
 
 const Faq = () => {
   return (
-    <section>
+    <section className="bg-[#F5F6F8]">
       <div className="py-40">
         <div className="mb-20">
           <h2 className="text-[52px] font-extrabold mb-4 pb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-[1200px] fontMontserrat">

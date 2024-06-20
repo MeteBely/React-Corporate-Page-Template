@@ -7,7 +7,7 @@ const FaqItem = ({ item }) => {
   const [mouseClick, setMouseClick] = useState(false);
 
   return (
-    <div className="bg-[#F5F6F9] py-4 px-6 w-full h-auto">
+    <div className="bg-[#fff] py-4 px-6 w-full h-auto">
       <div
         onClick={() => setMouseClick(!mouseClick)}
         className="flex flex-row items-center justify-between cursor-pointer"
