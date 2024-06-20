@@ -1,4 +1,5 @@
 import { PortfolioProjects } from "../components-data/Portfolio";
+import PortfolioProjectContainer from "./PortfolioProjectContainer";
 
 const Portfolio = () => {
   return (
@@ -15,13 +16,7 @@ const Portfolio = () => {
         </div>
         <div className="flex flex-col flex-wrap gap-4 items-start justify-start h-[1200px] w-[1220px] m-auto">
           {PortfolioProjects.map((project, i) => (
-            <div key={i} className="">
-              <img
-                className="w-[400px] object-cover"
-                src={project.img}
-                alt=""
-              />
-            </div>
+            <PortfolioProjectContainer project={project} key={i} />
           ))}
         </div>
       </div>
