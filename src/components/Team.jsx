@@ -15,8 +15,8 @@ const Team = () => {
           </p>
         </div>
         <div className="flex flex-row justify-center items-center flex-wrap gap-8 w-[1400px] m-auto">
-          {TeamMembers.map((member, i) => (
-            <TeamMemberItem member={member} key={i} />
+          {TeamMembers.map((member, index) => (
+            <TeamMemberItem member={member} key={index} index={index} />
           ))}
         </div>
       </div>

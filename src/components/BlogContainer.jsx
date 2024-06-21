@@ -1,12 +1,21 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 /* eslint-disable react/prop-types */
-const BlogContainer = ({ blog }) => {
+const BlogContainer = ({ blog, index }) => {
   const [onMouseImage, setOnMouseImage] = useState(false);
   const [hoverBtn, setHoverBtn] = useState(false);
+  useEffect(() => {
+    Aos.init({ once: true, duration: 2000 });
+  }, []);
 
   return (
-    <div className="w-[360px]">
+    <div
+      className="w-[360px]"
+      data-aos="fade-up"
+      data-aos-delay={index === 1 ? "200" : index === 2 ? "400" : "0"}
+    >
       <div
         onMouseOver={() => setOnMouseImage(true)}
         onMouseLeave={() => setOnMouseImage(false)}

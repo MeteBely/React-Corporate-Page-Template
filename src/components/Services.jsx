@@ -15,8 +15,8 @@ const Services = () => {
           </p>
         </div>
         <div className="flex flex-row justify-center items-center gap-8 flex-wrap w-[1600px] m-auto">
-          {ServicesArr.map((serviceItem, i) => (
-            <ServiceItem key={i} serviceItem={serviceItem} />
+          {ServicesArr.map((serviceItem, index) => (
+            <ServiceItem key={index} serviceItem={serviceItem} index={index} />
           ))}
         </div>
       </div>

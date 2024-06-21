@@ -1,12 +1,17 @@
 /* eslint-disable react/prop-types */
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const PortfolioProjectContainer = ({ project }) => {
   const [onMouseImage, setOnMouseImage] = useState(false);
+  useEffect(() => {
+    Aos.init({ once: true, duration: 2000 });
+  }, []);
 
   return (
     <div>
-      <div className="relative cursor-pointer">
+      <div className="relative cursor-pointer" data-aos="fade-up">
         <img className="w-[400px] object-cover" src={project.img} alt="" />
         <div
           onMouseEnter={() => setOnMouseImage(true)}

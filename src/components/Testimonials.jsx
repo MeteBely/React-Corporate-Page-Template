@@ -1,18 +1,22 @@
 import FiveStarFunc from "../utils/FiveStar";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css/autoplay";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 // import required modules
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
 
 const Testimonials = () => {
+  useEffect(() => {
+    Aos.init({ once: true, duration: 1500 });
+  }, []);
+
   return (
     <section className="bg-[#F5F6F8]">
       <div className="py-24 w-[60%] m-auto">
@@ -26,6 +30,7 @@ const Testimonials = () => {
           </p>
         </div>
         <Swiper
+          data-aos="fade-up"
           style={{
             "--swiper-pagination-color": "#000",
             "--swiper-navigation-color": "#F5F6F8",

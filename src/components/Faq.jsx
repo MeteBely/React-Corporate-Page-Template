@@ -17,8 +17,8 @@ const Faq = () => {
           </p>
         </div>
         <div className="flex flex-col justify-center items-center w-[1200px] m-auto gap-6">
-          {faqArr.map((item, i) => (
-            <FaqItem item={item} key={i} />
+          {faqArr.map((item, index) => (
+            <FaqItem item={item} key={index} index={index} />
           ))}
         </div>
       </div>

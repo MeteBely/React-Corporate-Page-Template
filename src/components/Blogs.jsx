@@ -15,7 +15,7 @@ const Blogs = () => {
         </div>
         <div className="flex flex-row justify-center items-center gap-8 flex-wrap">
           {BlogArr.map((blog, index) => (
-            <BlogContainer key={index} blog={blog} />
+            <BlogContainer key={index} blog={blog} index={index} />
           ))}
         </div>
       </div>

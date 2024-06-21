@@ -1,13 +1,22 @@
 /* eslint-disable react/prop-types */
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
-const TeamMemberItem = ({ member }) => {
+const TeamMemberItem = ({ member, index }) => {
   const [iconUp, setIconUp] = useState("");
+  useEffect(() => {
+    Aos.init({ once: true, duration: 2000 });
+  }, []);
 
   return (
-    <div className="w-[600px] h-[220px] flex flex-row items-start pt-6 justify-center gap-6 shadow-md rounded-md bg-white px-1 hover:-translate-y-2 duration-500">
+    <div
+      className="w-[600px] h-[220px] flex flex-row items-start pt-6 justify-center gap-6 shadow-md rounded-md bg-white px-1 hover:-translate-y-2 duration-500"
+      data-aos="fade-up"
+      data-aos-delay={index === 1 || index === 3 ? "200" : "0"}
+    >
       <div>
         <img className="w-40 rounded-full" src={member.img} alt="" />
       </div>

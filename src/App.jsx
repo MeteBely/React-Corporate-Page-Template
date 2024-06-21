@@ -1,4 +1,7 @@
 import About from "./components/About";
+import Blogs from "./components/Blogs";
+import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
@@ -18,7 +21,9 @@ export default function App() {
       <Team />
       <Pricing />
       <Testimonials />
-      <div className="h-[2000px]"></div>
+      <Blogs />
+      <Faq />
+      <Footer />
     </>
   );
 }

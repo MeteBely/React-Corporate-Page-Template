@@ -3,10 +3,15 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { BsFacebook } from "react-icons/bs";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
   const [hoverBtn, setHoverBtn] = useState(false);
+  useEffect(() => {
+    Aos.init({ once: true, duration: 2000 });
+  }, []);
 
   return (
     <section>
@@ -15,16 +20,27 @@ const Home = () => {
         className="h h-screen w-full bg-[#fff] mb-40 bg-no-repeat bg-cover relative bg-fixed"
       >
         <div className="absolute left-[15%] top-[30%] w-[700px]">
-          <h1 className="fontMontserrat text-[52px] font-semibold leading-[60px] tracking-wide mb-[10px]">
+          <h1
+            className="fontMontserrat text-[52px] font-semibold leading-[60px] tracking-wide mb-[10px]"
+            data-aos="fade-up"
+          >
             Delivering Superior Services Cutting-Edge IT Solutions
           </h1>{" "}
-          <p className="fontRoboto font-semibold text-[#9A979C] text-[17px] mb-12">
+          <p
+            className="fontRoboto font-semibold text-[#9A979C] text-[17px] mb-12"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
             At JForce, as one of Turkey&apos;s leading technology & software
             companies, we aim to provide the best possible digital
             transformation solution. We offer highest-quality systems and
             software solutions that meet your requirements.
           </p>
-          <div className="flex flex-row items-center justify-start gap-4 mb-4">
+          <div
+            className="flex flex-row items-center justify-start gap-4 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             <a href="https://www.instagram.com/jforcebilisim/" target="_blank">
               <AiOutlineInstagram size={22} />
             </a>
@@ -39,6 +55,8 @@ const Home = () => {
             </a>
           </div>
           <button
+            data-aos="fade-up"
+            data-aos-delay="800"
             onMouseEnter={() => setHoverBtn(true)}
             onMouseLeave={() => setHoverBtn(false)}
             className={`${

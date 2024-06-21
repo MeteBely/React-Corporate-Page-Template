@@ -1,6 +1,13 @@
 import { FaCircleCheck } from "react-icons/fa6";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Pricing = () => {
+  useEffect(() => {
+    Aos.init({ once: true, duration: 2000 });
+  }, []);
+
   return (
     <section>
       <div className="py-40">
@@ -14,7 +21,10 @@ const Pricing = () => {
           </p>
         </div>
         <div className="flex flex-row items-center justify-center gap-6 fontRoboto">
-          <div className="flex flex-col items-start justify-center shadow-md rounded-md px-4 h-[440px] gap-4">
+          <div
+            className="flex flex-col items-start justify-center shadow-md rounded-md px-4 h-[440px] gap-4"
+            data-aos="fade-up"
+          >
             <h4 className="text-[24px] font-bold fontMontserrat">Base</h4>
             <div className="text-gray-400">
               <span className="text-[42px] font-bold text-[#000]">$19 </span>/
@@ -57,7 +67,11 @@ const Pricing = () => {
               Choose Plan
             </button>
           </div>
-          <div className="flex flex-col items-start justify-center shadow-md rounded-md px-4 h-[440px] gap-4 bg-[#000] text-white">
+          <div
+            className="flex flex-col items-start justify-center shadow-md rounded-md px-4 h-[440px] gap-4 bg-[#000] text-white"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             <h4 className="text-[24px] font-bold fontMontserrat border-b">
               Popular
             </h4>
@@ -101,7 +115,11 @@ const Pricing = () => {
               Choose Plan
             </button>
           </div>
-          <div className="flex flex-col items-start justify-center shadow-md rounded-md px-4 h-[440px] gap-4">
+          <div
+            className="flex flex-col items-start justify-center shadow-md rounded-md px-4 h-[440px] gap-4"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
             <h4 className="text-[24px] font-bold fontMontserrat">Base</h4>
             <div className="text-gray-400">
               <span className="text-[42px] font-bold text-[#000]">$69 </span>/

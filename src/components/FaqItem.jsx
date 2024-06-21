@@ -1,13 +1,32 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { RxQuestionMarkCircled } from "react-icons/rx";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 /* eslint-disable react/prop-types */
-const FaqItem = ({ item }) => {
+const FaqItem = ({ item, index }) => {
   const [mouseClick, setMouseClick] = useState(false);
+  useEffect(() => {
+    Aos.init({ once: true, duration: 2000 });
+  }, []);
 
   return (
-    <div className="bg-[#fff] py-4 px-6 w-full h-auto">
+    <div
+      className="bg-[#fff] py-4 px-6 w-full h-auto"
+      data-aos="fade-up"
+      data-aos-delay={
+        index === 1
+          ? "200"
+          : index === 2
+          ? "400"
+          : index === 3
+          ? "600"
+          : index === 4
+          ? "800"
+          : "0"
+      }
+    >
       <div
         onClick={() => setMouseClick(!mouseClick)}
         className="flex flex-row items-center justify-between cursor-pointer"
