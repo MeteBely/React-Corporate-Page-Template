@@ -34,25 +34,74 @@ const Header = () => {
         <div>
           <ul className="flex flex-row gap-8 items-center justify-center text-lg roboto-medium tracking-wider">
             <li>
-              <a href="">HOME</a>
+              <a
+                href=""
+                className={`relative no-underline hover:before:scale-x-100 before:absolute before:origin-top-left before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:scale-x-0 before:transition-all before:duration-300 ${
+                  small ? "before:bg-[#fff]" : "before:bg-[#000]"
+                }`}
+              >
+                HOME
+              </a>
             </li>
             <li>
-              <a href="">ABOUT</a>
+              <a
+                href=""
+                className={`relative no-underline hover:before:scale-x-100 before:absolute before:origin-top-left before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:scale-x-0 before:transition-all before:duration-300 ${
+                  small ? "before:bg-[#fff]" : "before:bg-[#000]"
+                }`}
+              >
+                ABOUT
+              </a>
             </li>
             <li>
-              <a href="">SERVICES</a>
+              <a
+                href=""
+                className={`relative no-underline hover:before:scale-x-100 before:absolute before:origin-top-left before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:scale-x-0 before:transition-all before:duration-300 ${
+                  small ? "before:bg-[#fff]" : "before:bg-[#000]"
+                }`}
+              >
+                SERVICES
+              </a>
             </li>
             <li>
-              <a href="">PORTFOLIO</a>
+              <a
+                href=""
+                className={`relative no-underline hover:before:scale-x-100 before:absolute before:origin-top-left before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:scale-x-0 before:transition-all before:duration-300 ${
+                  small ? "before:bg-[#fff]" : "before:bg-[#000]"
+                }`}
+              >
+                PORTFOLIO
+              </a>
             </li>
             <li>
-              <a href="">TEAM</a>
+              <a
+                href=""
+                className={`relative no-underline hover:before:scale-x-100 before:absolute before:origin-top-left before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:scale-x-0 before:transition-all before:duration-300 ${
+                  small ? "before:bg-[#fff]" : "before:bg-[#000]"
+                }`}
+              >
+                TEAM
+              </a>
             </li>
             <li>
-              <a href="">PRICING</a>
+              <a
+                href=""
+                className={`relative no-underline hover:before:scale-x-100 before:absolute before:origin-top-left before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:scale-x-0 before:transition-all before:duration-300 ${
+                  small ? "before:bg-[#fff]" : "before:bg-[#000]"
+                }`}
+              >
+                PRICING
+              </a>
             </li>
             <li>
-              <a href="">CONTACT</a>
+              <a
+                href=""
+                className={`relative no-underline hover:before:scale-x-100 before:absolute before:origin-top-left before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:scale-x-0 before:transition-all before:duration-300 ${
+                  small ? "before:bg-[#fff]" : "before:bg-[#000]"
+                }`}
+              >
+                CONTACT
+              </a>
             </li>
           </ul>
         </div>
