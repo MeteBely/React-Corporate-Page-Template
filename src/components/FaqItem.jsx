@@ -55,7 +55,7 @@ const FaqItem = ({ item, index }) => {
       <p
         className={`${
           mouseClick
-            ? "max-h-32 visible opacity-100 translate-y-2"
+            ? "max-h-[200px] visible opacity-100 translate-y-2"
             : "max-h-0 invisible opacity-0 -translate-y-2"
         } transition-all duration-200 ease-linear fontRoboto`}
       >

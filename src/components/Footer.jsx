@@ -123,6 +123,62 @@ const Footer = () => {
               </ul>
             </div>
           </div>
+          <div className="min-[500px]:hidden flex flex-row justify-center gap-12 items-start">
+            <div className="mb-8">
+              <h4 className="text-[#fff] font-semibold mb-3 text-[17px] w-[105px]">
+                Useful Links
+              </h4>
+              <ul className="flex flex-col items-start justify-center gap-2 text-[15px]">
+                <li>
+                  <a href="" className="hover:underline">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="" className="hover:underline">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="" className="hover:underline">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="" className="hover:underline">
+                    Terms of service
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-[#fff] font-semibold mb-3 text-[17px]">
+                Our Services
+              </h4>
+              <ul className="flex flex-col items-start justify-center gap-2 text-[15px]">
+                <li>
+                  <a href="" className="hover:underline">
+                    Web Design
+                  </a>
+                </li>
+                <li>
+                  <a href="" className="hover:underline">
+                    Web Development
+                  </a>
+                </li>
+                <li>
+                  <a href="" className="hover:underline">
+                    Product Management
+                  </a>
+                </li>
+                <li>
+                  <a href="" className="hover:underline">
+                    Marketing
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div className="flex flex-row items-start justify-center gap-4 xl:gap-20 text-[#AFAFAF]">
           <div className="min-[870px]:block hidden">
@@ -179,7 +235,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="min-[870px]:hidden block">
+          <div className="min-[870px]:hidden min-[500px]:block hidden">
             <div className="mb-8">
               <h4 className="text-[#fff] font-semibold mb-3 text-[17px] w-[105px]">
                 Useful Links

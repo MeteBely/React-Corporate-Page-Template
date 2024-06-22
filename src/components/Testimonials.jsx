@@ -21,7 +21,7 @@ const Testimonials = () => {
     <section className="bg-[#F5F6F8]">
       <div className="py-24 m-auto">
         <div className="mb-20 px-2">
-          <h2 className="text-[52px] font-extrabold pb-4 mb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-[470px] md:w-[500px] fontMontserrat">
+          <h2 className="min-[500px]:text-[52px] text-[44px] font-extrabold pb-4 mb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-auto min-[500px]:w-[470px] md:w-[500px] fontMontserrat">
             TESTIMONIALS
           </h2>
           <p className="mx-auto text-center fontRoboto">
