@@ -29,10 +29,12 @@ const FaqItem = ({ item, index }) => {
     >
       <div
         onClick={() => setMouseClick(!mouseClick)}
-        className="flex flex-row items-center justify-between cursor-pointer"
+        className="flex flex-row items-start justify-between gap-2 cursor-pointer"
       >
         <div className="flex flex-row items-center justify-center gap-2">
-          <RxQuestionMarkCircled color="#6B7592" size={24} />
+          <div>
+            <RxQuestionMarkCircled color="#6B7592" size={24} />
+          </div>
           <h3
             className={`text-lg font-semibold transition-all duration-200 ease-linear fontMontserrat ${
               mouseClick ? "text-[#36517E]" : "text-[#000]"
@@ -43,7 +45,7 @@ const FaqItem = ({ item, index }) => {
         </div>
         <div>
           <IoIosArrowForward
-            className={`transition-all duration-200 ease-linear ${
+            className={`transition-all duration-200 ease-linear mt-[5px] ${
               mouseClick ? "rotate-90" : ""
             }`}
           />
@@ -53,7 +55,7 @@ const FaqItem = ({ item, index }) => {
       <p
         className={`${
           mouseClick
-            ? "max-h-20 visible opacity-100 translate-y-2"
+            ? "max-h-32 visible opacity-100 translate-y-2"
             : "max-h-0 invisible opacity-0 -translate-y-2"
         } transition-all duration-200 ease-linear fontRoboto`}
       >
