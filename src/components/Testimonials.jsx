@@ -19,12 +19,12 @@ const Testimonials = () => {
 
   return (
     <section className="bg-[#F5F6F8]">
-      <div className="py-24 w-[60%] m-auto">
-        <div className="mb-20">
-          <h2 className="text-[52px] font-extrabold pb-4 mb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-[600px] fontMontserrat">
+      <div className="py-24 m-auto">
+        <div className="mb-20 px-2">
+          <h2 className="text-[52px] font-extrabold pb-4 mb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-[470px] md:w-[500px] fontMontserrat">
             TESTIMONIALS
           </h2>
-          <p className="mx-auto text-center w-[800px] fontRoboto">
+          <p className="mx-auto text-center fontRoboto">
             Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
             consectetur velit
           </p>
@@ -44,7 +44,7 @@ const Testimonials = () => {
           navigation={true}
           modules={[Pagination, Navigation, Autoplay]}
           autoplay={{ delay: 4000 }}
-          className="mySwiper fontRoboto"
+          className="mySwiper fontRoboto md:w-[70%] lg:w-[70%] w-[90%]"
         >
           <SwiperSlide className="flex flex-col items-center justify-center w-[1200px] m-auto mb-12">
             <img
