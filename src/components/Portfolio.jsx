@@ -9,12 +9,12 @@ const Portfolio = () => {
           <h2 className="text-[52px] font-extrabold fontMontserrat mb-4 pb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-[420px]">
             PROJECTS
           </h2>
-          <p className="mx-auto fontRoboto text-center w-[800px]">
+          <p className="mx-auto px-2 fontRoboto text-center w-auto md:w-[750px]">
             Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
             consectetur velit
           </p>
         </div>
-        <div className="flex flex-col flex-wrap gap-4 items-start justify-start h-[1200px] w-[1220px] m-auto">
+        <div className="flex flex-col flex-wrap gap-4 items-center justify-start h-auto lg:h-[2400px] xl:h-[1200px] w-auto xl:w-[1220px] m-auto px-2">
           {PortfolioProjects.map((project, i) => (
             <PortfolioProjectContainer project={project} key={i} />
           ))}

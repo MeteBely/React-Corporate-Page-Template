@@ -9,11 +9,11 @@ const Blogs = () => {
           <h2 className="text-[52px] font-extrabold mb-4 pb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-[400px] fontMontserrat">
             BLOGS
           </h2>
-          <p className="mx-auto fontRoboto text-center w-[800px]">
+          <p className="mx-auto fontRoboto text-center w-auto md:w-[700px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </p>
         </div>
-        <div className="flex flex-row justify-center items-center gap-8 flex-wrap">
+        <div className="flex flex-row justify-center items-center gap-8 flex-wrap px-2">
           {BlogArr.map((blog, index) => (
             <BlogContainer key={index} blog={blog} index={index} />
           ))}

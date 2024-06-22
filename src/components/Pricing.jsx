@@ -10,17 +10,17 @@ const Pricing = () => {
 
   return (
     <section>
-      <div className="py-40">
-        <div className="mb-20">
+      <div className="py-40 px-2">
+        <div className="mb-16 lg:mb-20">
           <h2 className="text-[52px] font-extrabold fontMontserrat pb-4 mb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-[300px]">
             PRICING
           </h2>
-          <p className="mx-auto fontRoboto text-center w-[800px]">
+          <p className="mx-auto fontRoboto text-center w-auto lg:w-[800px]">
             Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
             consectetur velit
           </p>
         </div>
-        <div className="flex flex-row items-center justify-center gap-6 fontRoboto">
+        <div className="flex flex-row items-center justify-center gap-6 fontRoboto flex-wrap">
           <div
             className="flex flex-col items-start justify-center shadow-md rounded-md px-4 h-[440px] gap-4"
             data-aos="fade-up"

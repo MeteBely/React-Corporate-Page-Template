@@ -12,7 +12,11 @@ const PortfolioProjectContainer = ({ project }) => {
   return (
     <div>
       <div className="relative cursor-pointer" data-aos="fade-up">
-        <img className="w-[400px] object-cover" src={project.img} alt="" />
+        <img
+          className="w-[490px] xl:w-[400px] object-cover"
+          src={project.img}
+          alt=""
+        />
         <div
           onMouseEnter={() => setOnMouseImage(true)}
           onMouseLeave={() => setOnMouseImage(false)}
