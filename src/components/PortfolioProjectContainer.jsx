@@ -23,7 +23,7 @@ const PortfolioProjectContainer = ({ project }) => {
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-black bg-white flex justify-center items-center flex-col  w-full h-[101%] opacity-0 hover:opacity-90 transition-all duration-300"
         >
           <h2
-            className={`fontMontserrat text-2xl font-bold transition-all duration-700 opacity-0 ${
+            className={`fontMontserrat text-center text-2xl font-bold transition-all duration-700 opacity-0 ${
               onMouseImage && "-translate-y-3 opacity-100"
             }`}
           >
