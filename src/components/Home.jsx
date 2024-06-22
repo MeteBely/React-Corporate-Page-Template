@@ -17,17 +17,17 @@ const Home = () => {
     <section>
       <div
         style={{ backgroundImage: `url(${homePageTasarim})` }}
-        className="h-[80vh] sm:h-screen w-full bg-no-repeat bg-cover max-lg:bg-[center_top_1rem] sm:bg-fixed mb-40 relative"
+        className="h-[80vh] sm:h-screen w-full bg-no-repeat bg-cover max-lg:bg-top sm:bg-fixed mb-40 relative"
       >
-        <div className="absolute left-[5%] sm:left-[10%] md:left-[15%] top-[15%] md:top-[20%] lg:top-[25%] w-[90%] sm:w-[80%] md:w-[60%] lg:w-[50%]">
+        <div className="absolute left-[3%] sm:left-[5%] md:left-[10%] top-[15%] min-[855px]:top-[20%] lg:top-[25%] w-[90%] sm:w-[80%] md:w-[60%] lg:w-[50%]">
           <h1
-            className="fontMontserrat text-[32px] lg:w-[600px] 2xl:w-[700px] sm:text-[40px] md:text-[48px] lg:text-[52px] font-semibold leading-[40px] sm:leading-[50px] md:leading-[55px] lg:leading-[60px] tracking-wide mb-[10px]"
+            className="fontMontserrat text-[32px] lg:w-[600px] 2xl:w-[700px] sm:text-[40px] min-[855px]:text-[48px] lg:text-[52px] font-semibold leading-[40px] sm:leading-[50px] min-[855px]:leading-[55px] lg:leading-[60px] tracking-wide mb-[10px]"
             data-aos="fade-up"
           >
             Delivering Superior Services Cutting-Edge IT Solutions
           </h1>
           <p
-            className="fontRoboto font-semibold text-[#9A979C] 2xl:w-[800px] text-[14px] sm:text-[16px] md:text-[17px] mb-8 md:mb-12"
+            className="fontRoboto font-semibold text-[#9A979C] 2xl:w-[800px] text-[14px] sm:text-[16px] min-[855px]:text-[17px] mb-8 min-[855px]:mb-12"
             data-aos="fade-up"
             data-aos-delay="400"
           >
