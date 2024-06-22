@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import jforceIcon from "../assets/jforceIcon.png";
-import baby from "../assets/baby.png";
+import babyy from "../assets/jforcedenemasyon.png";
 
 const Header = () => {
   const [small, setSmall] = useState(false);
@@ -20,12 +20,12 @@ const Header = () => {
           small && "bg-[#303030] opacity-95 text-[#fff]"
         }`}
       >
-        <div className="w-[500px]">
+        <div className="">
           <a href="" className="pointer-events-none">
             {small ? (
-              <img className="w-[500px]" src={baby} alt="" />
+              <img className="w-[260px]" src={babyy} alt="" />
             ) : (
-              <div className="w-[500px] ml-32">
+              <div className="w-[260px]">
                 <img src={jforceIcon} />
               </div>
             )}
