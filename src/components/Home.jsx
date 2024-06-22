@@ -17,17 +17,17 @@ const Home = () => {
     <section>
       <div
         style={{ backgroundImage: `url(${homePageTasarim})` }}
-        className="h h-screen w-full bg-[#fff] mb-40 bg-no-repeat bg-cover relative bg-fixed"
+        className="h-[80vh] sm:h-screen w-full bg-no-repeat bg-cover max-lg:bg-[center_top_1rem] sm:bg-fixed mb-40 relative"
       >
-        <div className="absolute left-[15%] top-[30%] w-[700px]">
+        <div className="absolute left-[5%] sm:left-[10%] md:left-[15%] top-[15%] md:top-[20%] lg:top-[25%] w-[90%] sm:w-[80%] md:w-[60%] lg:w-[50%]">
           <h1
-            className="fontMontserrat text-[52px] font-semibold leading-[60px] tracking-wide mb-[10px]"
+            className="fontMontserrat text-[32px] lg:w-[600px] 2xl:w-[700px] sm:text-[40px] md:text-[48px] lg:text-[52px] font-semibold leading-[40px] sm:leading-[50px] md:leading-[55px] lg:leading-[60px] tracking-wide mb-[10px]"
             data-aos="fade-up"
           >
             Delivering Superior Services Cutting-Edge IT Solutions
-          </h1>{" "}
+          </h1>
           <p
-            className="fontRoboto font-semibold text-[#9A979C] text-[17px] mb-12"
+            className="fontRoboto font-semibold text-[#9A979C] 2xl:w-[800px] text-[14px] sm:text-[16px] md:text-[17px] mb-8 md:mb-12"
             data-aos="fade-up"
             data-aos-delay="400"
           >
@@ -54,23 +54,21 @@ const Home = () => {
               <FaLinkedin size={20} />
             </a>
           </div>
-          <button
-            data-aos="fade-up"
-            data-aos-delay="800"
-            onMouseEnter={() => setHoverBtn(true)}
-            onMouseLeave={() => setHoverBtn(false)}
-            className={`${
-              hoverBtn ? "bg-[#FDFDFD]" : "bg-[#000]"
-            } transition-all border-2 border-[#000] rounded-3xl px-6 py-[8px]`}
-          >
-            <span
-              className={`${
-                hoverBtn ? "text-[#000]" : "text-[#FDFDFD]"
-              } text-sm font-semibold transition-all fontMontserrat  tracking-wider`}
+          <div data-aos="fade-up" data-aos-delay="800">
+            <button
+              onMouseEnter={() => setHoverBtn(true)}
+              onMouseLeave={() => setHoverBtn(false)}
+              className="transition-all border-2 border-[#000] hover:bg-[#FDFDFD] bg-[#000] rounded-3xl px-4 py-2 sm:px-6 sm:py-2.5"
             >
-              Get Started{" "}
-            </span>
-          </button>
+              <span
+                className={`${
+                  hoverBtn ? "text-[#000]" : "text-[#FDFDFD]"
+                } text-sm font-semibold transition-all fontMontserrat tracking-wider`}
+              >
+                Get Started
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </section>
