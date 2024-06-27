@@ -13,7 +13,7 @@ const Blogs = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </p>
         </div>
-        <div className="flex flex-row justify-center items-center gap-8 flex-wrap px-2">
+        <div className="flex flex-row justify-center items-center gap-8 flex-wrap px-2 min-[1220px]:w-[1200px] w-auto m-auto">
           {BlogArr.map((blog, index) => (
             <BlogContainer key={index} blog={blog} index={index} />
           ))}

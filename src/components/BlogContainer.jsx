@@ -14,7 +14,13 @@ const BlogContainer = ({ blog, index }) => {
     <div
       className="w-[360px]"
       data-aos="fade-up"
-      data-aos-delay={index === 1 ? "200" : index === 2 ? "400" : "0"}
+      data-aos-delay={
+        index === 1 || index === 4
+          ? "200"
+          : index === 2 || index === 5
+          ? "400"
+          : "0"
+      }
     >
       <div
         onMouseOver={() => setOnMouseImage(true)}
