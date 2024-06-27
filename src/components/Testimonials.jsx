@@ -60,10 +60,10 @@ const Testimonials = () => {
             </h4>
             <FiveStarFunc />
             <p className="text-center">
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
+              “Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
               veniam tempor noster veniam enim culpa labore duis sunt culpa
               nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
-              quid.
+              quid.”
             </p>
           </SwiperSlide>
           <SwiperSlide className="flex flex-col items-center justify-center w-[1200px] m-auto mb-12">
@@ -80,10 +80,8 @@ const Testimonials = () => {
             </h4>
             <FiveStarFunc />
             <p className="text-center">
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
-              veniam tempor noster veniam enim culpa labore duis sunt culpa
-              nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
-              quid.
+              “Thanks to the project we run with JForce, we provide a much more
+              agile service in compensation management.”
             </p>
           </SwiperSlide>
           <SwiperSlide className="flex flex-col items-center justify-center w-[1200px] m-auto mb-12">
@@ -98,30 +96,28 @@ const Testimonials = () => {
             </h4>
             <FiveStarFunc />
             <p className="text-center">
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
+              “Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
               veniam tempor noster veniam enim culpa labore duis sunt culpa
               nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
-              quid.
+              quid.”
             </p>
           </SwiperSlide>
           <SwiperSlide className="flex flex-col items-center justify-center w-[1200px] m-auto mb-12">
             <img
               className="w-[140px] rounded-full mb-2"
-              src="https://bootstrapmade.com/demo/templates/Arsha/assets/img/testimonials/testimonials-1.jpg"
+              src="https://jforce.com.tr/wp-content/uploads/2022/12/indir.jpeg"
               alt=""
             />
             <h3 className="text-2xl font-bold text-[#000] mb-2">
-              Anonymous People
+              Mehmet Abacı
             </h3>
             <h4 className="text-sm text-[#444444] font-semibold mb-4">
-              HITACHI CFO
+              Anadolu Sigorta, CIO, Deputy Chief Executive
             </h4>
             <FiveStarFunc />
             <p className="text-center">
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
-              veniam tempor noster veniam enim culpa labore duis sunt culpa
-              nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
-              quid.
+              “Thanks to the project we run with JForce, we provide a much more
+              agile service in compensation management.”
             </p>
           </SwiperSlide>
         </Swiper>
