@@ -5,10 +5,12 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
-import Pricing from "./components/Pricing";
+import InsuranceSolutions from "./components/InsuranceSolutions";
 import Services from "./components/Services";
+import SwiperBanner from "./components/SwiperBanner";
 import Team from "./components/Team";
 import Testimonials from "./components/Testimonials";
+import WhyUs from "./components/WhyUs";
 
 export default function App() {
   return (
@@ -16,10 +18,12 @@ export default function App() {
       <Header />
       <Home />
       <About />
+      <SwiperBanner />
+      <WhyUs />
       <Services />
       <Portfolio />
       <Team />
-      <Pricing />
+      <InsuranceSolutions />
       <Testimonials />
       <Blogs />
       <Faq />
