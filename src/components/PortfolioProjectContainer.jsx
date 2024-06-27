@@ -30,7 +30,7 @@ const PortfolioProjectContainer = ({ project }) => {
             {project.title}
           </h2>
           <p
-            className={`text-[#6a6d75] fontMontserrat text-sm font-semibold transition-all duration-700 opacity-0  ${
+            className={`text-[#6a6d75] fontMontserrat text-sm font-semibold transition-all duration-700 opacity-0 text-center  ${
               onMouseImage && "-translate-y-3 opacity-100"
             }`}
           >

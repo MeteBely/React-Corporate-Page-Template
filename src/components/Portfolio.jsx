@@ -7,7 +7,7 @@ const Portfolio = () => {
       <div className="py-40">
         <div className="mb-20">
           <h2 className="text-[52px] font-extrabold fontMontserrat mb-4 pb-4 text-[#000] border-b border-gray-400 mx-auto text-center min-[500px]:w-[420px] w-auto">
-            PROJECTS
+            SOLUTIONS
           </h2>
           <p className="mx-auto px-2 fontRoboto text-center w-auto md:w-[750px]">
             Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
