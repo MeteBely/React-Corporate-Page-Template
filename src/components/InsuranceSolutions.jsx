@@ -14,7 +14,7 @@ const InsuranceSolutions = () => {
     <section>
       <div className="py-40 px-2">
         <div className="mb-16 lg:mb-32">
-          <h2 className="text-[52px] font-extrabold fontMontserrat pb-4 mb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-auto min-[830px]:w-[800px]">
+          <h2 className="text-[32px] sm:text-[40px] md:text-[48px] lg:text-[52px] font-extrabold fontMontserrat pb-4 mb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-auto min-[830px]:w-[800px]">
             Our Insurance Solutions
           </h2>
           <p className="mx-auto fontRoboto text-center w-auto lg:w-[800px]">

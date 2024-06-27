@@ -6,7 +6,7 @@ const WhyUs = () => {
     <section className="bg-[#808080]">
       <div className="py-40 text-white">
         <div className="mb-20">
-          <h2 className="text-[52px] font-extrabold mb-4 pb-4 border-b border-gray-400 mx-auto text-center md:w-[740px] w-auto fontMontserrat">
+          <h2 className="text-[32px] sm:text-[40px] md:text-[48px] lg:text-[52px] font-extrabold mb-4 pb-4 border-b border-gray-400 mx-auto text-center md:w-[740px] w-auto fontMontserrat">
             Figures behind the trust
           </h2>
           <p className="mx-auto fontRoboto text-center w-auto md:w-[700px]">

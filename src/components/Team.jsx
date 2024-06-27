@@ -6,7 +6,7 @@ const Team = () => {
     <section>
       <div className="bg-[#F5F6F8] py-20 md:py-40">
         <div className="mb-10 md:mb-20 px-4">
-          <h2 className="text-[32px] md:text-[52px] font-extrabold fontMontserrat pb-4 mb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-full max-w-[675px]">
+          <h2 className="text-[32px] sm:text-[40px] md:text-[48px] lg:text-[52px] font-extrabold fontMontserrat pb-4 mb-4 text-[#000] border-b border-gray-400 mx-auto text-center w-full max-w-[675px]">
             MANAGEMENT TEAM
           </h2>
           <p className="mx-auto fontRoboto text-center w-full max-w-[800px]">
